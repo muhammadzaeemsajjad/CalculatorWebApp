@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    padding: 0.75vh; /* 4px ≈ 0.5vh */
+    height: 7vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-decoration: underline;
+
+    
+}
+
+.cal{
+    margin: 7vh 0 26vh 0; /* 50px ≈ 7vh, 200px ≈ 26vh */
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 60vh;
+    width: 40vw;
+    justify-self: center;
+    background-color: rgb(240, 94, 218);
+   
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row input{
+    width: 18vw;
+    height: 5vh;
+    font-size: x-large;
+    text-align: left;
+    padding-right: 1vw; /* 10px ≈ 1vw */
+    border-radius: 0.5vh; /* 3px ≈ 0.5vh */
+    border: 0.3vh solid grey; /* 2px ≈ 0.3vh */
+}
+
+.btn{
+    padding: 1.5vh; /* 10px ≈ 1.5vh */
+    border: 0.3vh solid grey; /* 2px ≈ 0.3vh */
+    border-radius: 0.5vh; /* 3px ≈ 0.5vh */
+    background-color: black;
+    color: white;
+    margin: 0.5vh 0.5vw; /* 3px ≈ 0.5vh/vw */
+    text-align: center;
+    width: 4vw;
+    font-size: large;
+}
+
+.btn:hover{
+    box-shadow: 0.3vh 0.3vh 0.3vh 0.3vh rgba(231, 7, 7, 0.781); /* 2px ≈ 0.3vh */
+    cursor: pointer;
+}
+
+body{
+    background-color: #62caf3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
